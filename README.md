@@ -28,7 +28,7 @@ pip install .
 
 ```
 
-# Docker Commands
+# Docker Commands#
 ```
 docker build -t loan_pred:v1 .
 docker build -t manifoldailearning/cicd:latest .
