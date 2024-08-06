@@ -39,7 +39,7 @@ class LoanPrediction(BaseModel):
 
 @app.get("/")
 def index():
-    return {"message":"Welcome to Loan Prediction App using CI CD Jenkins V2"}
+    return {"message":"Welcome to Loan Prediction App using CI CD Jenkins V3"}
 
 @app.post("/prediction_api")
 def predict(loan_details: LoanPrediction):
